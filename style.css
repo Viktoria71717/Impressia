@@ -1,0 +1,42 @@
+*
+{box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: "Ubuntu Mono", serif;
+}
+ 
+.container-fluid {
+    width: 100%;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url("images/Градиентная заливка 1 1.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.photo img {
+    width: 500px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+.picture img {
+    width: 55px;
+    margin: 20px 15px;
+}
+.first {
+background-color: black;
+color: aliceblue;
+height: 800px;
+display: flexbox;
+padding: 90px;
+
+}
+
